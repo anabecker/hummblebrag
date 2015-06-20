@@ -1,0 +1,43 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "bootstrap.scss";
+
+$brown : #db9949;
+
+
+body{
+/*	background: url(../img/bkgd.jpg) no-repeat center center;
+	background-size: cover;*/
+}
+
+.jumbotron{
+	background: none;
+	text-align: center;
+}
+
+.btn-warning{
+	cursor: pointer !important;
+}
+
+.btn-brown{
+	background: $brown;
+	color: #fff;
+}
+
+#experiment{
+	text-align: center;
+}
+
+h2{
+margin: 0.5em 0 2em 0;
+	line-height: 1.5em;
+}
+
+audio#preview{
+	display: none;
+}
+
