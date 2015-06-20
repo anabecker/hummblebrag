@@ -1,16 +1,18 @@
 <?php include('header.php') ?>
 
-				<div class="container" id="experiment">
+            <div class="container" id="experiment">
 
-				        <h2>When you’re ready to hum / sing / doobedoo, hit <span>RECORD</span></h2>
-				        				                    <div id="record" class="btn btn-large btn-success"><span class="glyphicon glyphicon-play"></span> Record</div>
-				                    <div id="stop" disabled class="btn btn-large btn-warning"><span class="glyphicon glyphicon-stop"></span> Stop</div>
-				                    <div id="delete" class="btn btn-large btn-warning btn-brown"><span class="glyphicon glyphicon-repeat"></span> Do-over</div>
-				        						
-						                <audio id="preview" controls></audio>
-				        
-				                    <div id="container"></div>
-				</div>
+                        <h2>When you’re ready to hum / sing / doobedoo, hit <span>RECORD</span></h2>
+                        
+                                                        <br>
+                                    <div id="record" class="btn btn-large btn-success"><span class="glyphicon glyphicon-play"></span> Record</div>
+                                    <div id="stop" disabled class="btn btn-large btn-warning"><span class="glyphicon glyphicon-stop"></span> Stop</div>
+                                    <div id="delete" class="btn btn-large btn-warning btn-brown"><span class="glyphicon glyphicon-repeat"></span> Do-over</div>
+                                     <div id="next" class="btn btn-large btn-success">Next Step <span class="glyphicon glyphicon-arrow-right"></span></div>
+                                                                    <audio id="preview" controls></audio>
+                        
+                                    <div id="container"></div>
+            </div>
 
 
 
@@ -56,6 +58,7 @@
         var record = document.getElementById('record');
         var stop = document.getElementById('stop');
         var deleteFiles = document.getElementById('delete');
+        var next = document.getElementById('next');
 
         var audio = document.querySelector('audio');
 
@@ -124,6 +127,12 @@
             deleteFiles.disabled = false;
         };
 
+        next.onclick = function() {
+            var nextStepURL = ('post.php?file=' + fileName)
+            window.location = nextStepURL;
+
+        }
+
         deleteFiles.onclick = function() {
             deleteAudioVideoFiles();
         };
@@ -170,8 +179,8 @@
 
         window.onbeforeunload = function() {
             if (!!fileName) {
-                deleteAudioVideoFiles();
-                return 'It seems that you\'ve not deleted audio/video files from the server.';
+                // deleteAudioVideoFiles();
+                // return 'It seems that you\'ve not deleted audio/video files from the server.';
             }
         };
         </script>
