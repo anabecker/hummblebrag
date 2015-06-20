@@ -1,18 +1,16 @@
 <?php include('header.php') ?>
 
-			<div class="container" id="experiment">
+				<div class="container" id="experiment">
 
 				        <h2>When you’re ready to hum / sing / doobedoo, hit <span>RECORD</span></h2>
-				        
-				        								<br>
-				                    <div id="record" class="btn btn-large btn-success"><span class="glyphicon glyphicon-play"></span> Record</div>
+				        				                    <div id="record" class="btn btn-large btn-success"><span class="glyphicon glyphicon-play"></span> Record</div>
 				                    <div id="stop" disabled class="btn btn-large btn-warning"><span class="glyphicon glyphicon-stop"></span> Stop</div>
 				                    <div id="delete" class="btn btn-large btn-warning btn-brown"><span class="glyphicon glyphicon-repeat"></span> Do-over</div>
 				        						
-				        							                <audio id="preview" controls></audio>
+						                <audio id="preview" controls></audio>
 				        
 				                    <div id="container"></div>
-			</div>
+				</div>
 
 
 
