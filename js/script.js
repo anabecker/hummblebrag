@@ -48,13 +48,20 @@ var App_obj = {
 		App_obj.bind_events()		  
 	},
 	bind_events : function(){
+		$('.hiding').hide();
 		$('#go').on('click', function(){
 			get_spotify_url();
 		});
-		// $('#record').on('click',function(){
-		// 	console.log('you clicked me');
-		// 	App_obj.chartcountdown();
-		// });
+		$('#record').on('click',function(){
+			console.log('you clicked me');
+			$(this).fadeOut(500);
+			$('#stop').fadeIn(500);
+		});
+		$('#stop').click(function(){
+			$(this).hide();
+			$('#delete').fadeIn(500);
+			$('#next').fadeIn(500);
+		})
 	},
 	get_spotify_url : function(){
 

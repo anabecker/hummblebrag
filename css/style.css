@@ -9726,5 +9726,28 @@ audio#preview {
 
 /* line 44, ../sass/style.scss */
 .hiding {
-  display: none;
+  /*display: none;*/
+  /*opacity: 0;*/
+}
+
+/* line 49, ../sass/style.scss */
+.transparent {
+  /*opacity: 0 !important;*/
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* line 55, ../sass/style.scss */
+.opaque {
+  opacity: 1 !important;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* line 62, ../sass/style.scss */
+.recorder {
+  margin: 0 auto;
+  float: none;
 }
