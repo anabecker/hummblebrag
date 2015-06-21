@@ -64,3 +64,10 @@ audio#preview{
 	margin: 0 auto;
 	float: none;
 }
+
+.btn a{
+	color: #fff;
+	&:hover{
+	text-decoration:none;
+	}
+}

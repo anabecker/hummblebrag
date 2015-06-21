@@ -3,8 +3,8 @@
       <div class="jumbotron">
         <h1>HUMMBLEBRAG</h1>
         <p class="lead">Let the internet help you find any song ever, or show the world that you are John Cusack in High Fidelity. Such cred. Much expert. Wow.</p>
-        <div class="btn btn-large btn-success" id="">Record a Hum</div>
-        <div class="btn btn-large btn-success" id="go">Play the Game</div>
+        <div class="btn btn-large btn-success" id=""><a href="recorder.php">Record a Hum</a></div>
+        <div class="btn btn-large btn-success" id="go"><a href="game.php">Play the Game</a></div>
       </div>
 
       <hr>
@@ -46,7 +46,7 @@
 <!--		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/script.js"></script> ->
-</html>
+</html> -->
 
 
     <?php  

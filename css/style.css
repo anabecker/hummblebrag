@@ -9752,3 +9752,12 @@ audio#preview {
   margin: 0 auto;
   float: none;
 }
+
+/* line 68, ../sass/style.scss */
+.btn a {
+  color: #fff;
+}
+/* line 70, ../sass/style.scss */
+.btn a:hover {
+  text-decoration: none;
+}
