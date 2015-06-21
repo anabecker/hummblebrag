@@ -9715,11 +9715,16 @@ body {
 
 /* line 35, ../sass/style.scss */
 h2 {
-  margin: 0.5em 0 2em 0;
+  margin: 0.5em 0 0.5em 0;
   line-height: 1.5em;
 }
 
 /* line 40, ../sass/style.scss */
 audio#preview {
+  display: none;
+}
+
+/* line 44, ../sass/style.scss */
+.hiding {
   display: none;
 }
