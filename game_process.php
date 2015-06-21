@@ -19,7 +19,7 @@ VALUES ('$hum_id', '$artist', '$song')";
 
 mysql_query($sql) or die(mysql_error()); 
 
-header('Location: game.php');
+header('Location: game.php#correct=yes');
 
 ?>
 

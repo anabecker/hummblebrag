@@ -29,7 +29,7 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="index.php">Home</a></li>
           <li><a href="#">Sign In</a></li>
           <li><a href="#"></a></li>
         </ul>
