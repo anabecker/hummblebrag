@@ -54,7 +54,7 @@ var App_obj = {
 		});
 		$('#record').on('click',function(){
 			console.log('you clicked me');
-			$(this).fadeOut(500);
+			$(this).fadeOut(0);
 			$('#stop').fadeIn(500);
 		});
 		$('#stop').click(function(){

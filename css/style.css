@@ -9689,48 +9689,49 @@ button.close {
 body {
   /*	background: url(../img/bkgd.jpg) no-repeat center center;
   	background-size: cover;*/
+  padding-bottom: 100px;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 .jumbotron {
   background: none;
   text-align: center;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .btn-warning {
   cursor: pointer !important;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .btn-brown {
   background: #db9949;
   color: #fff;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 #experiment {
   text-align: center;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 h2 {
   margin: 0.5em 0 0.5em 0;
   line-height: 1.5em;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 audio#preview {
   display: none;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .hiding {
   /*display: none;*/
   /*opacity: 0;*/
 }
 
-/* line 49, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .transparent {
   /*opacity: 0 !important;*/
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -9738,7 +9739,7 @@ audio#preview {
   transition: opacity 0.5s ease-in-out;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .opaque {
   opacity: 1 !important;
   -webkit-transition: opacity 0.5s ease-in-out;
@@ -9746,7 +9747,7 @@ audio#preview {
   transition: opacity 0.5s ease-in-out;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .recorder {
   margin: 0 auto;
   float: none;
